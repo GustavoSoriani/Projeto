@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #ffff33;
+    width: 40%;
+    height: 100%;
+}
+.title {
+     font-size: 28px;
+     font-weight: bold;
+     text-transform: capitalize;
+}
+.title-primary {
+    color: black;
+}
+.title-second {
+    color: #000000;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary {
+    color: #000000;
+}
+.description-second {
+    color: black;
+}
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: 1px solid;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+.btn-primary {
+    background-color: #58af9b;
+    border: 1px solid #000000
+}
+.btn-primary:hover {
+    background-color: black;
+    color: #ffff33;
+}
+.btn-second {
+    background-color: white;
+    border: 1px solid black
+}
+.first-content {
+    display: flex;
+}
+.first-column {
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+.second-column {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-social-media {
+    display: flex;
+    list-style-type: none;
+}
+.item-social-media {
+    border: 1px solid #000000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.item-social-media a {
+    color: black;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+}
+
+.form input {
+    height: 45px;
+    border: none;
+    background-color: #ecf0f1;
+    margin: 8px
+}
+.label.input {
+    background-color: black;
+}
+
+.second-content {
+    position: absolute;
+    display: none;
+}
