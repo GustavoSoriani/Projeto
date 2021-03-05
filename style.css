@@ -27,7 +27,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #ffff33;
+    background-color: #58af9b;
     width: 40%;
     height: 100%;
 }
@@ -40,7 +40,7 @@ body {
     color: black;
 }
 .title-second {
-    color: #000000;
+    color: black;
 }
 .description {
     font-size: 14px;
@@ -74,8 +74,8 @@ body {
     border: 1px solid #000000
 }
 .btn-primary:hover {
-    background-color: black;
-    color: #ffff33;
+    background-color: #fff;
+    color: black;
 }
 .btn-second {
     background-color: white;
